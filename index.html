@@ -96,9 +96,9 @@ ul, ol, li {margin: 0;padding: 0;list-style: none;}
 			$progress.on('click', function (){
 				if (!$(this).hasClass('active')) {
 					const barIndex = $(this).index();
-					$slider.slick('slickGoTo', barIndex, false);
+					$slider.slick('slickGoTo', barIndex);
 				}
 			});
-		}
+		};
 	</script>
 </body>
